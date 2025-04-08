@@ -2,14 +2,37 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment Project</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upcoming Events</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <h1>This is my Assignment start</h1>
+    <header>
+        <div class="container">
+            <h1>Upcoming Events</h1>
+        </div>
+    </header>
+
+    <section class="search-filter container">
+        <input type="text" id="searchInput" placeholder="Search events..." />
+        <select id="categoryFilter">
+            <option value="">All Categories</option>
+            <option value="Workshop">Workshop</option>
+            <option value="Seminar">Seminar</option>
+            <option value="Meetup">Meetup</option>
+        </select>
+    </section>
+
+    <main class="event-list container">
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Community Organization</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
