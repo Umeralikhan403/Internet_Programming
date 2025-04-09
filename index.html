@@ -9,15 +9,13 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <h1>Upcoming Events</h1>
-        </div>
+    <header class="header">
+        <h1>Upcoming Events</h1>
     </header>
 
-    <section class="search-filter container">
+    <section class="search-bar">
         <input type="text" id="searchInput" placeholder="Search events..." />
-        <select id="categoryFilter">
+        <select id="categorySelect">
             <option value="">All Categories</option>
             <option value="Workshop">Workshop</option>
             <option value="Seminar">Seminar</option>
@@ -25,13 +23,45 @@
         </select>
     </section>
 
-    <main class="event-list container">
+
+    <main class="main-wrapper">
+        <div class="event-list">
+            <div class="event-card">
+                <h2>Web Development Workshop</h2>
+                <p><strong>Date:</strong> April 20, 2025</p>
+                <p><strong>Location:</strong> Community Hall A</p>
+                <p><strong>Category:</strong> Workshop</p>
+                <p>Learn the fundamentals of web development with hands-on sessions.</p>
+            </div>
+
+            <div class="event-card">
+                <h2>AI & Machine Learning Seminar</h2>
+                <p><strong>Date:</strong> May 5, 2025</p>
+                <p><strong>Location:</strong> Tech Center Auditorium</p>
+                <p><strong>Category:</strong> Seminar</p>
+                <p>Explore cutting-edge AI trends with experts from the industry.</p>
+            </div>
+
+            <div class="event-card">
+                <h2>Monthly Community Meetup</h2>
+                <p><strong>Date:</strong> May 18, 2025</p>
+                <p><strong>Location:</strong> City Park Pavilion</p>
+                <p><strong>Category:</strong> Meetup</p>
+                <p>Connect with local members, share ideas, and enjoy refreshments.</p>
+            </div>
+
+            <div class="event-card">
+                <h2>Digital Marketing Workshop</h2>
+                <p><strong>Date:</strong> June 2, 2025</p>
+                <p><strong>Location:</strong> Room B-104, Main Building</p>
+                <p><strong>Category:</strong> Workshop</p>
+                <p>Boost your online presence and learn how to grow audiences.</p>
+            </div>
+        </div>
     </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Community Organization</p>
-        </div>
+    <footer class="footer">
+        <p>&copy; 2025 Community Organization</p>
     </footer>
 
     <script src="script.js"></script>
