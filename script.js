@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    console.log("Assignment project started.");
+    // console.log("Assignment project started.");
 
     // getting the input elements we have for search, category and event card
     const searchInput = document.getElementById('searchInput');
