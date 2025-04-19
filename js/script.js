@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     noEventMessage.style.color = "#888";
     noEventMessage.style.marginTop = "20px";
     noEventMessage.style.display = "none";
+    
 
     // Adding it to the event list section
     const eventList = document.querySelector('.event-list');
